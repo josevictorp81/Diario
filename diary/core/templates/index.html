@@ -9,13 +9,13 @@
         </div>
     </article>
 
-    {% for entry in entries %}
+    {% for note in notes %}
         <article class="media">
             <div class="media-content">
                 <div class="content">
                     <p>
-                        <strong>{{ entry.date_posted }}</strong>
-                        <br> {{ entry.text }}
+                        <strong>{{ note.date }}</strong>
+                        <br> {{ note.text }}
                     </p>
                 </div>
             </div>
