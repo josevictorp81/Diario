@@ -9,17 +9,27 @@
         </div>
     </article>
 
-    {% for note in notes %}
+    {% if notes %}
+        {% for note in notes %}
+            <article class="media">
+                <div class="media-content">
+                    <div class="content">
+                        <p>
+                            <strong>{{ note.date }}</strong>
+                            <br> {{ note.text }}
+                        </p>
+                    </div>
+                </div>
+            </article>
+        {% endfor %}
+    {% else %}
         <article class="media">
             <div class="media-content">
                 <div class="content">
-                    <p>
-                        <strong>{{ note.date }}</strong>
-                        <br> {{ note.text }}
-                    </p>
+                    <P>Não há anotações</P>
                 </div>
             </div>
         </article>
-    {% endfor %}
+    {% endif %}
 
 {% endblock %}
