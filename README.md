@@ -29,7 +29,7 @@ venv/Scripts/Activate
 pip install -r requirements.txt
 ```
 
-4. Cria o banco de dados
+4. Cria os modelos
 ```
 python manage.py makemigrations
 ```
