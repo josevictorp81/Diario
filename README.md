@@ -6,7 +6,7 @@ Esta é uma aplicação simples, que dispõe de uma pagina para listar as anota�
 ![Anotações](https://github.com/josevictorp81/Diario/blob/main/imagens/anota%C3%A7%C3%B5es.png)
 
 E uma pagina que permite adicionar mais anotações.
-![Adicionar Anotação](https://github.com/josevictorp81/Diario/blob/main/imagens/nova-anota%C3%A7%C3%A3o.png)
+![Adicionar Anotação](https://github.com/josevictorp81/Diario/blob/main/imagens/nova-anota%C3%A7ao.png)
 
 # Tecnologias
 * [Django](https://www.djangoproject.com/)
