@@ -1,4 +1,4 @@
-# Anotações
+# Diario
 Esta é uma aplicação que tem o intúito de funcionar como um diário, onde pode-se anotar idéias e pensamentos que poderão ser
 desenvolvidas posteriormente.
 
