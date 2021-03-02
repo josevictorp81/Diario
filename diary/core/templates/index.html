@@ -15,7 +15,8 @@
                 <div class="media-content">
                     <div class="content">
                         <p>
-                            <strong>{{ note.date }}</strong>
+                            <strong>{{ note.title }} - {{ note.date }}</strong>
+                            <a href="{% url 'delete' note.pk %}">Deletar</a>
                             <br> {{ note.text }}
                         </p>
                     </div>

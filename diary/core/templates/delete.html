@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <form method="POST">
+        {% csrf_token %}
+        <p><h4>Deletar anotação "{{ object }}"?</h4></p>
+        <button class="btn btn-primary" type="submit">Deletar</button>
+        <a href="{% url 'index' %}" class="btn btn-outline-primary">Voltar</a>
+    </form>
+{% endblock %}

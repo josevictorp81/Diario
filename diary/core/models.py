@@ -8,6 +8,6 @@ class Notes(models.Model):
     class Meta:
         verbose_name = 'Anotação'
         verbose_name_plural = 'Anotações'
-
+    
     def __str__(self):
         return self.title
